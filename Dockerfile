@@ -36,7 +36,7 @@ RUN chown -R gradle /home/gradle/src
 RUN gradle build -x test
     
 # actual container
-FROM adoptopenjdk/openjdk17:alpine-jre
+FROM openjdk:17-alpine
 ENV ARTIFACT_NAME=product-service-0.0.1-SNAPSHOT.jar
 ENV APP_HOME=/usr/app/
     
