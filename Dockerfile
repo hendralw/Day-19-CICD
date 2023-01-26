@@ -27,9 +27,9 @@ RUN chown -R gradle /home/source/java
 USER gradle
 RUN gradle clean build
 
-# FROM openjdk:17
-# WORKDIR /home/application/java
-# COPY --from=compile "/home/source/java/build/libs/product-service-0.0.1-SNAPSHOT.jar" .
+FROM alpine
+WORKDIR /home/application/java
+COPY --from=compile "/home/source/java/build/libs/product-service-0.0.1-SNAPSHOT.jar" .
 EXPOSE 8080
 ENTRYPOINT [ "java", "-jar", "/home/application/java/product-service-0.0.1-SNAPSHOT.jar"]
 
