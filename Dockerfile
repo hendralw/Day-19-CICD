@@ -27,7 +27,7 @@ RUN chown -R gradle /home/source/java
 USER gradle
 RUN gradle clean build
 
-FROM jdk17-alpine
+FROM gradle:jdk17-alpine
 WORKDIR /home/application/java
 COPY --from=compile "/home/source/java/build/libs/product-service-0.0.1-SNAPSHOT.jar" .
 EXPOSE 8080
