@@ -18,22 +18,20 @@
 # using multistage docker build
 # ref: https://docs.docker.com/develop/develop-images/multistage-build/
     
-FROM openjdk:17 AS TEMP_BUILD_IMAGE
-ENV APP_HOME=/usr/app/
-WORKDIR $APP_HOME
-COPY build.gradle settings.gradle gradlew $APP_HOME
-COPY gradle $APP_HOME/gradle
-# RUN ./gradlew build || return 0 
-# COPY . .
-# RUN ./gradlew build
-RUN gradle build -x test || return 0
-COPY . .
-RUN gradle build -x test
+FROM openjdk:8-jdk-alpine as build
+WORKDIR /workspace/app
 
-FROM openjdk:17
-ENV ARTIFACT_NAME=product-service-0.0.1-SNAPSHOT.jar
-ENV APP_HOME=/usr/app/
-WORKDIR $APP_HOME
-COPY --from=TEMP_BUILD_IMAGE $APP_HOME/build/libs/$ARTIFACT_NAME .
-EXPOSE 8081
-CMD ["java","-jar",$ARTIFACT_NAME]
+COPY gradle gradle
+COPY build.gradle settings.gradle gradlew ./
+COPY src src
+
+RUN ./gradlew build -x test
+RUN mkdir -p build/libs/dependency && (cd build/libs/dependency; jar -xf ../*.jar)
+
+FROM openjdk:8-jdk-alpine
+VOLUME /tmp
+ARG DEPENDENCY=/workspace/app/build/libs/dependency
+COPY --from=build ${DEPENDENCY}/BOOT-INF/lib /app/lib
+COPY --from=build ${DEPENDENCY}/META-INF /app/META-INF
+COPY --from=build ${DEPENDENCY}/BOOT-INF/classes /app
+ENTRYPOINT ["java","-cp","app:app/lib/*","product-service-0.0.1-SNAPSHOT"]
