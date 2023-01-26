@@ -18,7 +18,7 @@
 # using multistage docker build
 # ref: https://docs.docker.com/develop/develop-images/multistage-build/
     
-FROM openjdk:8-jdk-alpine as build
+FROM openjdk:11-jdk-alpine as build
 WORKDIR /workspace/app
 
 COPY gradle gradle
@@ -28,7 +28,7 @@ COPY src src
 RUN ./gradlew build -x test
 RUN mkdir -p build/libs/dependency && (cd build/libs/dependency; jar -xf ../*.jar)
 
-FROM openjdk:8-jdk-alpine
+FROM openjdk:11-jdk-alpine
 VOLUME /tmp
 ARG DEPENDENCY=/workspace/app/build/libs/dependency
 COPY --from=build ${DEPENDENCY}/BOOT-INF/lib /app/lib
