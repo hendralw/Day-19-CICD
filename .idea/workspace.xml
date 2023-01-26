@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8a91778c-1f54-4739-a18f-d56b43086705" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/helloworld/controller/HelloWorldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/helloworld/controller/HelloWorldController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/helloworld/model/RequestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/helloworld/model/RequestModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/helloworld/model/ResponseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/helloworld/model/ResponseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/helloworld/service/HelloWorldService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/helloworld/service/HelloWorldService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/helloworld/service/HelloWorldServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/helloworld/service/HelloWorldServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/product/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/product/entity/ProductEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/product/entity/ProductEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/product/model/ProductRequestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/product/model/ProductRequestModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/product/model/ProductResponseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/product/model/ProductResponseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/product/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/product/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/product/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/product/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/product/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/product/service/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/adapter/controller/AuthenticateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/adapter/controller/AuthenticateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/adapter/controller/CreateUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/adapter/controller/CreateUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/adapter/controller/DeleteUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/adapter/controller/DeleteUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/adapter/controller/GetAllUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/adapter/controller/GetAllUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/adapter/controller/GetUserByIdController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/adapter/controller/GetUserByIdController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/adapter/controller/UpdateUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/adapter/controller/UpdateUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/adapter/persistence/UserPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/adapter/persistence/UserPersistence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/adapter/persistence/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/adapter/persistence/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/adapter/persistence/UserRepositoryJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/adapter/persistence/UserRepositoryJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/config/JwtAthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/config/JwtAthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/config/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/config/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/model/AuthenticationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/model/AuthenticationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/model/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/model/AuthenticationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/model/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/model/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/model/UserRequestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/model/UserRequestModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/model/UserResponseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/model/UserResponseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/service/CreateUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/service/CreateUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/service/DeleteUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/service/DeleteUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/service/GetAllUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/service/GetAllUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/service/GetUserByIdService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/service/GetUserByIdService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/service/UpdateUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/service/UpdateUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/service/in/CreateUserUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/service/in/CreateUserUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/service/in/DeleteUserUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/service/in/DeleteUserUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/service/in/GetAllUserUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/service/in/GetAllUserUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/service/in/GetUserByIdUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/service/in/GetUserByIdUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/service/in/UpdateUserUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/service/in/UpdateUserUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/service/out/CreateUserPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/service/out/CreateUserPort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/service/out/DeleteUserPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/service/out/DeleteUserPort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/service/out/GetAllUserPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/service/out/GetAllUserPort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/service/out/GetUserByIdPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/service/out/GetUserByIdPort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/user/service/out/UpdateUserPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/service/out/UpdateUserPort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/utils/Headers.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/utils/Headers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/utils/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/utils/Json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/utils/ResponseApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/utils/ResponseApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/restapijvs/utils/ValidationApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/utils/ValidationApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/restapijvs/CreateUserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/test/java/com/example/demo/restapijvs/CreateUserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/restapijvs/DeleteUserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/test/java/com/example/demo/restapijvs/DeleteUserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/restapijvs/GetAllUserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/test/java/com/example/demo/restapijvs/GetAllUserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/restapijvs/GetUserByIdServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/test/java/com/example/demo/restapijvs/GetUserByIdServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/restapijvs/UpdateUserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/test/java/com/example/demo/restapijvs/UpdateUserServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/product-service">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo.rest-api-jvs" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KXk7lj8mjN7AljkHoatFHHSJdG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Tugas/rest-api/demo.rest-api-jvs/product-service",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Tugas\rest-api\demo.rest-api-jvs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Tugas\rest-api\demo.rest-api-jvs" />
+      <recent name="D:\Tugas\rest-api\demo.rest-api-jvs\product-service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.D:/Tugas/rest-api/demo.rest-api-jvs/product-service">
+    <configuration name="D:/Tugas/rest-api/demo.rest-api-jvs/product-service" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/product-service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UpdateUserServiceTest.updateUser_WhenUserExistAndValid_WillReturnCorrectResponse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.demo.restapijvs.UpdateUserServiceTest.updateUser_WhenUserExistAndValid_WillReturnCorrectResponse&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UpdateUserServiceTest.updateUser_WhenUserIsEmpty_WillReturnCorrectResponse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.demo.restapijvs.UpdateUserServiceTest.updateUser_WhenUserIsEmpty_WillReturnCorrectResponse&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UpdateUserServiceTest.updateUser_WhenUserIsNull_WillReturnCorrectResponse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.demo.restapijvs.UpdateUserServiceTest.updateUser_WhenUserIsNull_WillReturnCorrectResponse&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UpdateUserServiceTest.updateUser_WhenUserNotExistAndValid_WillReturnCorrectResponse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.example.demo.restapijvs.UpdateUserServiceTest.updateUser_WhenUserNotExistAndValid_WillReturnCorrectResponse&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.service: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="service" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.docker-compose.yml.service: Compose Deployment" />
+      <item itemvalue="Gradle.D:/Tugas/rest-api/demo.rest-api-jvs/product-service" />
+      <item itemvalue="Gradle.UpdateUserServiceTest.updateUser_WhenUserExistAndValid_WillReturnCorrectResponse" />
+      <item itemvalue="Gradle.UpdateUserServiceTest.updateUser_WhenUserIsEmpty_WillReturnCorrectResponse" />
+      <item itemvalue="Gradle.UpdateUserServiceTest.updateUser_WhenUserIsNull_WillReturnCorrectResponse" />
+      <item itemvalue="Gradle.UpdateUserServiceTest.updateUser_WhenUserNotExistAndValid_WillReturnCorrectResponse" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml.service: Compose Deployment" />
+        <item itemvalue="Gradle.UpdateUserServiceTest.updateUser_WhenUserIsNull_WillReturnCorrectResponse" />
+        <item itemvalue="Gradle.UpdateUserServiceTest.updateUser_WhenUserIsEmpty_WillReturnCorrectResponse" />
+        <item itemvalue="Gradle.UpdateUserServiceTest.updateUser_WhenUserNotExistAndValid_WillReturnCorrectResponse" />
+        <item itemvalue="Gradle.UpdateUserServiceTest.updateUser_WhenUserExistAndValid_WillReturnCorrectResponse" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a91778c-1f54-4739-a18f-d56b43086705" name="Changes" comment="" />
+      <created>1674128151271</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674128151271</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-method">
+          <url>file://$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/adapter/persistence/UserPersistence.java</url>
+          <line>69</line>
+          <properties class="com.example.demo.restapijvs.user.adapter.persistence.UserPersistence">
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/product-service/src/test/java/com/example/demo/restapijvs/GetAllUserServiceTest.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product-service/src/test/java/com/example/demo/restapijvs/CreateUserServiceTest.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product-service/src/test/java/com/example/demo/restapijvs/CreateUserServiceTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product-service/src/test/java/com/example/demo/restapijvs/CreateUserServiceTest.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product-service/src/test/java/com/example/demo/restapijvs/UpdateUserServiceTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/product-service/src/main/java/com/example/demo/restapijvs/user/adapter/persistence/UserPersistence.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

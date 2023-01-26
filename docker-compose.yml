@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  service:
+    image: 'demo.rest-api-jvs:latest'
+    container_name: demo.
+    build:
+      context: product-service
+      dockerfile: Dockerfile
+    ports:
+      - '8081:8080'
+    depends_on:
+      - database
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://database:5432/product_db
+      - SPRING_DATASOURCE_USERNAME=product_user
+      - SPRING_DATASOURCE_PASSWORD=123
+      - SPRING_JPA_HIBERNATE_DDL_AUTO=update
+      - SPRING_DATASOURCE_DRIVER-CLASS-NAME=org.postgresql.Driver
+      - SERVER_PORT=8080
+
+  database:
+    container_name: database
+    image: 'postgres:15-alpine'
+    environment:
+      - POSTGRES_USER=product_user
+      - POSTGRES_PASSWORD=123
+      - POSTGRES_DB=product_db
+    ports:
+      - '5433:5432'
