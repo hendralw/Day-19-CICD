@@ -1,16 +1,28 @@
 # Day-18-AWS & Day-19-CICD
 
-hostname | port
-------------- | -------------
-http://54.249.152.230 | 8080
+url api
+-------------
+https://product-service.procurement-capstone.site/api
 
-endpoint  | method | auth | request body
-------------- | ------------- | ------------- | -------------
-http://54.249.152.230:8080/api/v2/auth/login | POST | - | {"password":"password","phone":"08123456789"}
-http://54.249.152.230:8080/api/v2/users | GET | Bearer Token | 
-http://54.249.152.230:8080/api/v2/users/:id | GET | Bearer Token | 
-http://54.249.152.230:8080/api/v2/users | POST | Bearer Token | {"name":"riko","email":"hendra@gmail.com","phone":"0891234567","password":"password"}
-http://54.249.152.230:8080/api/v2/users/:id | PUT | Bearer Token | {"id": 5,"name":"riko","email":"hendra@gmail.com","phone":"123123123","password":"password"}
-http://54.249.152.230:8080/api/v2/users/:id | DELETE | Bearer Token | 
+swagger
+-------------
+https://product-service.procurement-capstone.site/swagger-ui/index.html
 
-![image](https://user-images.githubusercontent.com/49546149/215718059-d8aa382f-c8e6-4155-bdc1-361b898b4f6a.png)
+docker hub
+-------------
+https://hub.docker.com/repository/docker/hendralw/product-service/general
+
+docker image
+-------------
+hendralw/product-service:latest
+
+-------------
+
+endpoint  | method | request body
+------------- | ------------- | -------------
+https://product-service.procurement-capstone.site/api/v1/products | POST | {"name":"Pen","category":"Office","stock":10,"user_id":"c1dcaf84-a3c7-11ed-a8fc-0242ac120002","is_deleted":false}
+https://product-service.procurement-capstone.site/api/v1/products | GET | -
+https://product-service.procurement-capstone.site/api/v1/products/:id | GET | -
+https://product-service.procurement-capstone.site/api/v1/products | PATCH | {"id":"5c594c13-f775-4eca-afe7-90ae52cd6242","name":"wahyuuu","category":"Office","stock":10,"user_id":"c1dcaf84-a3c7-11ed-a8fc-0242ac120002","is_deleted":false}
+
+![image](https://user-images.githubusercontent.com/49546149/219458678-9ad35cf0-b9a8-4282-9f17-bacd1824a68f.png)
